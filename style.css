@@ -1,6 +1,139 @@
 *{
-    background-image: url("./Image/gradient.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: unset;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #182559;
+    color: white;
+}
+nav{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(155, 77, 3);
+}
+
+.purpal{
+    color: chartreuse;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.purpal:hover{
+    color: rgb(219, 74, 74);
+    transform: rotate3d(90deg);
+    text-overflow: inherit;
+  
+}
+
+
+.left{
+    font-size: 30px;    
+  
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+} 
+nav ul li a:hover{
+    color: rgb(106, 5, 247);
+    font-size: 20px;
+}
+
+.first{
+     margin: 130px 0;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+.leftsection {
+    width: 30%;
+   
+    font-size: 48px;
+}
+
+.righsection{
+
+    width: 30%;
+  
+}
+.righsection img{
+    width: 80%;
+}
+
+main hr{
+    display: flex;
+    color: white;
+    margin: 40px 84px;
+    align-items: center;
+}
+
+/* secondsecion----------------- */
+
+.second{
+    margin: auto;
+        max-width: 80vw;
+    color: rgb(125, 226, 192);
+    height: 80vh;
+}
+.gray{
+    color: gray;
+}
+
+
+.box{
+   background: white;
+   width: 78vw;
+   height: 2px;
+   margin: 56px 0;
+   display: flex;
+}
+.second h1{
+    font-size: 1.9rem;
+}
+
+.vertical{
+        background-color: #fff;
+        height: 93px;
+        width: 2px;
+        margin: 0 120px;
+}
+
+.image2{
+    width: 40px;
+    position: relative;
+    top: -36px;
+    left:-9px
+}
+
+.vertical-text{
+    position: relative;
+    color: wheat;
+    top:75px;
+    width:150px;
+
+}
+
+.vertical-desc{
+    color:wheat;
+    position: relative;
+    top: 80px;
+    width: 150px;
+    font-size: 9px;
 }
