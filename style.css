@@ -2,11 +2,14 @@
     padding: 0;
     margin: 0;
 }
+
+
 body{
     background-color: #182559;
     color: white;
 }
 nav{
+  
     display: flex;
     height: 60px;
     justify-content: space-around;
@@ -137,3 +140,30 @@ main hr{
     width: 150px;
     font-size: 9px;
 }
+
+.footer{
+    display: flex;
+    border-radius: 5px;
+   margin: 23px 122px 2px;
+    height: 30vh;
+    background-color: #e16464;
+    justify-content: space-evenly;
+    
+
+}
+
+.footer >div{
+    margin: 20px 0;
+    width: 223px ;
+}
+.footer ul{
+    list-style: none;
+}
+.copy-right{
+   
+    text-align: center;
+}
+
+
+
+
